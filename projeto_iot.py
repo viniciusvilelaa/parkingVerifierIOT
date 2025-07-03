@@ -34,8 +34,19 @@ img = cv2.imread("estacionamento_exemplo.jpg")
 # Defina manualmente as coordenadas das vagas (x, y, largura, altura)
 # Exemplo com 2 vagas (adicione mais conforme necessário)
 vagas = [
-    (30, 60, 120, 100),   # Vaga 1
-    (140, 60, 230, 100)  # Vaga 2
+    (30, 60, 90, 40),   # Vaga 1
+    (140, 60, 90, 40), # Vaga 2
+    (250, 60, 90, 40), # Vaga 3
+    (360, 60, 90, 40), # Vaga 4
+    (470, 60, 90, 40), # Vaga 5
+    (580, 60, 90, 40), # Vaga 6
+
+    (30, 150, 90, 40),   
+    (140, 150, 90, 40),   
+    (250, 150, 90, 40), 
+    (360, 150, 90, 40),
+    (470, 150, 90, 40), 
+    (580, 150, 90, 40), 
 ]
 
 # Inicializa o leitor OCR
